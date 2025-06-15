@@ -1,0 +1,119 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "iPhone 14",
+            "descricao": "O iPhone 14 da Apple é um smartphone de última geração que combina design sofisticado com tecnologia de ponta. Equipado com 128GB de armazenamento interno, permite guardar fotos, vídeos e aplicativos sem preocupações. Sua câmera de alta resolução proporciona fotos nítidas e vídeos em qualidade impressionante, enquanto a tela Super Retina XDR de 6,1 polegadas oferece cores vibrantes e excelente definição. O desempenho é garantido pelo processador A15 Bionic, que possibilita navegação fluida e execução de múltiplas tarefas. Ideal para quem busca uma experiência premium, segurança avançada e integração perfeita com o ecossistema Apple.",
+            "preco": 5999.99,
+            "categoria_id": 1,
+            "foto": "https://m.media-amazon.com/images/I/619f09kK7tL.jpg",
+            "resumo": "Smartphone Apple com design sofisticado, câmera avançada e alto desempenho."
+        },
+        {
+            "id": 2,
+            "nome": "Samsung Galaxy S23",
+            "descricao": "O Samsung Galaxy S23 é um smartphone topo de linha que oferece 256GB de armazenamento, permitindo guardar uma grande quantidade de arquivos e aplicativos. Seu processador de última geração garante performance rápida e eficiente, enquanto as câmeras versáteis possibilitam capturar imagens e vídeos em altíssima qualidade, inclusive em ambientes com pouca luz. A tela AMOLED de alta definição proporciona uma experiência visual imersiva, com cores vivas e excelente contraste. Com recursos inovadores, bateria de longa duração e design moderno, é perfeito para quem busca tecnologia avançada e praticidade no dia a dia.",
+            "preco": 4999.99,
+            "categoria_id": 1,
+            "foto": "https://m.media-amazon.com/images/I/51B-CvsQ07L._UF1000,1000_QL80_.jpg",
+            "resumo": "Smartphone Samsung potente com câmeras versáteis e tela AMOLED de alta definição."
+        },
+        {
+            "id": 3,
+            "nome": "Dell Inspiron 15",
+            "descricao": "O notebook Dell Inspiron 15 é ideal para quem precisa de desempenho e versatilidade. Equipado com processador Intel i7 de última geração, 16GB de memória RAM e SSD de 1TB, garante velocidade e eficiência tanto para tarefas profissionais quanto para entretenimento. Sua tela touch Full HD de 15,6 polegadas proporciona excelente qualidade de imagem e maior interatividade. O design moderno e leve facilita o transporte, enquanto a bateria de longa duração permite trabalhar ou estudar por horas sem preocupações. Uma escolha perfeita para produtividade, estudos e lazer.",
+            "preco": 4299.99,
+            "categoria_id": 2,
+            "foto": "https://horizonplay.fbitsstatic.net/img/p/notebook-dell-inspiron-15-i3520-intel-core-i7-1255u-tela-touch-full-hd-15-6-16gb-de-ram-1tb-ssd-carbon-preto-152401/339004-2.jpg",
+            "resumo": "Notebook Dell com alto desempenho, tela touch e design moderno."
+        },
+        {
+            "id": 4,
+            "nome": "LG OLED55",
+            "descricao": "A TV LG OLED55 de 55 polegadas oferece uma experiência de cinema em casa, graças à tecnologia OLED que proporciona cores vivas, pretos profundos e contraste incomparável. Com resolução 4K, cada detalhe das imagens é exibido com máxima nitidez. Os recursos inteligentes permitem fácil acesso a aplicativos de streaming, navegação na internet e conectividade com outros dispositivos. O design ultrafino e elegante complementa qualquer ambiente, enquanto o sistema de som imersivo garante áudio de alta qualidade. Ideal para quem busca entretenimento de alto nível e tecnologia de ponta em televisores.",
+            "preco": 6999.99,
+            "categoria_id": 3,
+            "foto": "https://m.media-amazon.com/images/I/71TZ+wyzR5S.jpg",
+            "resumo": "TV LG OLED 4K de 55'' com cores vivas, contraste incrível e design ultrafino."
+        },
+        {
+            "id": 5,
+            "nome": "JBL Charge 5",
+            "descricao": "A caixa de som Bluetooth JBL Charge 5 é perfeita para quem gosta de curtir música em qualquer lugar. Com áudio potente e graves profundos, proporciona uma experiência sonora envolvente. Sua bateria de longa duração permite até 20 horas de reprodução contínua, e a resistência à água (certificação IP67) garante tranquilidade em ambientes externos, como praias e piscinas. O design robusto e portátil facilita o transporte, enquanto a função powerbank permite carregar outros dispositivos via USB. Ideal para festas, viagens e momentos de lazer ao ar livre.",
+            "preco": 899.99,
+            "categoria_id": 4,
+            "foto": "https://m.media-amazon.com/images/I/71N8si9jomL.jpg",
+            "resumo": "Caixa de som JBL portátil, potente, à prova d'água e com bateria de longa duração."
+        },
+        {
+            "id": 6,
+            "nome": "PlayStation 5",
+            "descricao": "O console Sony PlayStation 5 redefine a experiência gamer com gráficos de última geração, tempos de carregamento ultrarrápidos graças ao SSD personalizado e o inovador controle DualSense, que oferece feedback tátil e gatilhos adaptáveis. Compatível com uma vasta biblioteca de jogos exclusivos e retrocompatibilidade com títulos do PS4, proporciona diversão para todos os perfis de jogadores. O design futurista e o sistema de resfriamento eficiente garantem desempenho estável mesmo em longas sessões de jogo. Ideal para quem busca imersão total e entretenimento de alta qualidade.",
+            "preco": 4499.99,
+            "categoria_id": 5,
+            "foto": "https://m.media-amazon.com/images/I/51+qnZm7V7L.jpg",
+            "resumo": "Console PlayStation 5 com gráficos avançados, SSD rápido e controle inovador."
+        },
+        {
+            "id": 7,
+            "nome": "Xbox Series X",
+            "descricao": "O Xbox Series X da Microsoft oferece desempenho de ponta com processador customizado, gráficos em 4K e SSD ultrarrápido para carregamentos quase instantâneos. Compatível com milhares de jogos de várias gerações do Xbox, proporciona uma experiência de jogo fluida e imersiva. O design robusto e silencioso, aliado ao controle ergonômico, garante conforto em longas sessões. Ideal para gamers exigentes que buscam potência e versatilidade.",
+            "preco": 4299.99,
+            "categoria_id": 5,
+            "foto": "https://m.media-amazon.com/images/I/61JGKhqxHxL.jpg",
+            "resumo": "Console Xbox Series X com gráficos 4K, SSD rápido e retrocompatibilidade."
+        },
+        {
+            "id": 8,
+            "nome": "Apple MacBook Air M2",
+            "descricao": "O MacBook Air com chip M2 oferece desempenho excepcional em um design ultrafino e leve. Com 8GB de RAM, SSD de 256GB e tela Retina de 13,6 polegadas, é perfeito para produtividade, estudos e entretenimento. A bateria de longa duração e o sistema operacional macOS garantem eficiência e praticidade no dia a dia.",
+            "preco": 8999.99,
+            "categoria_id": 2,
+            "foto": "https://m.media-amazon.com/images/I/71f5Eu5lJSL.jpg",
+            "resumo": "Notebook Apple leve, potente e com bateria de longa duração."
+        },
+        {
+            "id": 9,
+            "nome": "Samsung QLED 65\"",
+            "descricao": "A TV Samsung QLED de 65 polegadas oferece imagens em 4K com cores vibrantes e contraste aprimorado. Com recursos inteligentes, acesso a aplicativos de streaming e design elegante, transforma qualquer sala em um verdadeiro cinema. Ideal para quem busca qualidade de imagem e conectividade.",
+            "preco": 7999.99,
+            "categoria_id": 3,
+            "foto": "https://m.media-amazon.com/images/I/61Il+tmCEUL.jpg",
+            "resumo": "TV Samsung QLED 4K de 65'' com imagens vibrantes e recursos inteligentes."
+        },
+        {
+            "id": 10,
+            "nome": "Echo Dot 5ª Geração",
+            "descricao": "O Echo Dot 5ª Geração da Amazon é uma caixa de som inteligente com Alexa integrada. Permite controlar dispositivos inteligentes, ouvir músicas, obter informações e muito mais por comando de voz. Compacta e com áudio aprimorado, é ideal para qualquer ambiente da casa.",
+            "preco": 349.99,
+            "categoria_id": 4,
+            "foto": "https://images.kabum.com.br/produtos/fotos/460471/echo-dot-5-geracao-amazon-com-alexa-smart-speaker-preto-b09b8vgcr8_1684324203_gg.jpg",
+            "resumo": "Caixa de som inteligente com Alexa e áudio de alta qualidade."
+        },
+        {
+            "id": 11,
+            "nome": "Nintendo Switch OLED",
+            "descricao": "O Nintendo Switch OLED oferece uma experiência de jogo versátil, podendo ser usado como console de mesa ou portátil. Com tela OLED de 7 polegadas, cores vibrantes e áudio aprimorado, é perfeito para jogar em qualquer lugar. Compatível com uma vasta biblioteca de jogos exclusivos da Nintendo.",
+            "preco": 2999.99,
+            "categoria_id": 5,
+            "foto": "https://m.media-amazon.com/images/I/61-PblYntsL.jpg",
+            "resumo": "Console Nintendo Switch OLED portátil e versátil, com tela vibrante."
+        },
+        {
+            "id": 12,
+            "nome": "Lenovo Legion 5",
+            "descricao": "O notebook Lenovo Legion 5 é ideal para gamers e profissionais que buscam alto desempenho. Equipado com processador AMD Ryzen 7, 16GB de RAM, SSD de 512GB e placa de vídeo dedicada, garante performance em jogos e aplicações pesadas. Tela Full HD de 15,6 polegadas e teclado retroiluminado completam o pacote.",
+            "preco": 6999.99,
+            "categoria_id": 2,
+            "foto": "https://p3-ofp.static.pub//fes/cms/2024/09/12/m1jnssoporjtlmma8zqy3ssoour2yj992790.png",
+            "resumo": "Notebook gamer Lenovo com alto desempenho e design robusto."
+        }
+    ],
+    "categorias": [
+        { "id": 1, "nome": "Smartphones" },
+        { "id": 2, "nome": "Notebooks" },
+        { "id": 3, "nome": "Televisores" },
+        { "id": 4, "nome": "Áudio" },
+        { "id": 5, "nome": "Consoles" }
+    ]
+}
