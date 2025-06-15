@@ -26,7 +26,7 @@ export default async function ResumoPage() {
                 )}
             />
             <Divider />
-            <Text strong>R$ {total?.toString().replace(".", ",")}</Text>
+            <Text strong>R$ {total?.toFixed(2).toString().replace(".", ",")}</Text>
         </div>
     );
 }

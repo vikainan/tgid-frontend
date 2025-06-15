@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { Drawer, Avatar, List, Typography, Button } from "antd";
 import { PlusCircleOutlined, MinusCircleOutlined } from "@ant-design/icons";
 import { useAppContext } from "@/context/context-provider";
@@ -15,6 +16,12 @@ interface CartDrawerProps {
 export const CartDrawer = ({ open, onClose }: CartDrawerProps) => {
     const { cart, total, addItemToCart, removeItemFromCart } = useAppContext();
     const { push } = useRouter();
+    const [loading, setLoading] = useState(false);
+
+    const handleOnClick = () => {
+        setLoading(true);
+        push("/resumo");
+    };
 
     return (
         <Drawer
@@ -49,11 +56,12 @@ export const CartDrawer = ({ open, onClose }: CartDrawerProps) => {
                                 avatar={<Avatar src={item.foto} />}
                                 title={item.nome}
                             />
-                            <Text strong>
+                            <Text strong style={{ paddingInline: 8 }}>
                                 R$ {item.preco.toString().replace(`.`, `,`)}
                             </Text>
-                            <br />
-                            <Text>{item.quantidade}</Text>
+                            <Text strong style={{ paddingInline: 8 }}>
+                                Qtd: {item.quantidade}
+                            </Text>
                         </List.Item>
                     )}
                 />
@@ -65,11 +73,12 @@ export const CartDrawer = ({ open, onClose }: CartDrawerProps) => {
                     }}
                 >
                     <Title level={3}>
-                        R$ {total?.toString().replace(".", ",")}
+                        R$ {total?.toFixed(2).toString().replace(".", ",")}
                     </Title>
                     <Button
                         type="primary"
-                        onClick={() => push("/resumo")}
+                        onClick={handleOnClick}
+                        loading={loading}
                         block
                     >
                         Finalizar compra

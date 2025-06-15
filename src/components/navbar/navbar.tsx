@@ -37,6 +37,7 @@ export const Navbar = ({ openCart }: NavbarProps) => {
                 flexDirection: "row-reverse",
                 position: "sticky",
                 top: 0,
+                zIndex: 5
             }}
         />
     );
